@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="xenViolet">#8800ff</color>
+    <color name="colorPrimaryDark">#303237</color>
+    <color name="colorAccent">#303237</color>
+    <color name="duskYellow">#DBB835</color>
+    <color name="darkGreen">#147700</color>
+    <color name="duskGrey">#303237</color>
+    <color name="black">#000000</color>
+    <color name="fadedOrange">#C9960C</color>
+    <color name="reddishGrey">#8B5742</color>
+    <color name="silver">#C0C0C0</color>
+    <color name="darkGrey">#C0C0C0</color>
+
+    <color name="whiteWashed">#e5e5e5</color>
+    <color name="white">#ffffff</color>
+    <color name="zomatoRed">#FF0000</color>
+    <color name="crimpson">#DC143C</color>
+    <color name="translucent">#10000000</color>
+
+
+
+
+
+</resources>

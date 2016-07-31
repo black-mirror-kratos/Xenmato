@@ -1,0 +1,54 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    tools:context=".MessagesFragment">
+
+
+    <TextView
+        android:id="@+id/profile_label"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="100dp"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:textSize="45dp"
+        android:textStyle="bold"/>
+
+    <RatingBar
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/profile_rating"
+        android:layout_below="@+id/profile_label"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Calories"
+        android:id="@+id/textViewm3"
+        android:layout_below="@+id/profile_rating"
+        android:layout_alignStart="@+id/profile_rating"
+        android:layout_marginTop="122dp" />
+
+
+    //**** 1_begin
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/fab"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+
+        android:layout_marginBottom="54dp"
+        android:layout_alignParentBottom="true"
+        android:layout_toEndOf="@+id/profile_rating"
+
+        />
+
+    //**** 1_end
+
+</RelativeLayout>

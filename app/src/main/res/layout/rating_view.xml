@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+        <RatingBar
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/ratingBar"
+            android:background="@android:color/transparent"
+            android:progressBackgroundTint="@color/accent_material_light"
+            android:progressTint="#e9ce02"
+            android:secondaryProgressTint="@color/accent_material_light"
+            android:layout_marginLeft="0dp"
+            android:numStars="5"
+            android:rating="5.0"
+            android:stepSize="1.0"
+            android:layout_centerVertical="true"
+            android:layout_centerHorizontal="true" />
+
+        <Button
+            android:layout_width="100dp"
+            android:layout_height="55dp"
+            android:text="5.0"
+            android:id="@+id/rateButton"
+            android:background="@color/darkGreen"
+            android:layout_marginLeft="0dp"
+            android:layout_marginRight="0dp"
+            android:textColor="@android:color/white"
+            android:enabled="true"
+            android:focusable="true"
+            android:focusableInTouchMode="true"
+            android:clickable="true"
+            android:nestedScrollingEnabled="false"
+            android:onClick="ratingSubmit"
+            android:layout_below="@+id/ratingBar"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="85dp" />
+
+</RelativeLayout>
